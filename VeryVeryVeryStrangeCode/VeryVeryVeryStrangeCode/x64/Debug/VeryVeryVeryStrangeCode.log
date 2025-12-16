@@ -1,41 +1,49 @@
 ﻿  VeryVeryVeryStrangeCode.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\bit(11): warning STL4038: The contents of <bit> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\compare(12): warning STL4038: The contents of <compare> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\concepts(12): warning STL4038: The contents of <concepts> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\coroutine(17): warning STL4038: The contents of <coroutine> are available only with C++20 or later or /await:strict.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\numbers(11): warning STL4038: The contents of <numbers> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\source_location(11): warning STL4038: The contents of <source_location> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdfloat(12): warning STL4038: The contents of <stdfloat> are available only with C++23 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\any(12): warning STL4038: The contents of <any> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\charconv(12): warning STL4038: The contents of <charconv> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\expected(11): warning STL4038: The contents of <expected> are available only with C++23 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\generator(12): warning STL4038: The contents of <generator> are available only with C++23 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\mdspan(11): warning STL4038: The contents of <mdspan> are available only with C++23 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory_resource(12): warning STL4038: The contents of <memory_resource> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\print(11): warning STL4038: The contents of <print> are available only with C++23 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\ranges(11): warning STL4038: The contents of <ranges> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\span(12): warning STL4038: The contents of <span> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\spanstream(11): warning STL4038: The contents of <spanstream> are available only with C++23 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stacktrace(12): warning STL4038: The contents of <stacktrace> are available only with C++23 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\syncstream(11): warning STL4038: The contents of <syncstream> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\barrier(16): warning STL4038: The contents of <barrier> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\execution(12): warning STL4038: The contents of <execution> are available only with C++17 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\latch(16): warning STL4038: The contents of <latch> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\semaphore(16): warning STL4038: The contents of <semaphore> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stop_token(12): warning STL4038: The contents of <stop_token> are available only with C++20 or later.
-C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(551,19): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(554,19): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(557,24): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(560,24): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(563,25): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(566,25): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(569,25): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(575,15): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\bit(11): warning STL4038: The contents of <bit> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\compare(12): warning STL4038: The contents of <compare> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\concepts(12): warning STL4038: The contents of <concepts> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\coroutine(17): warning STL4038: The contents of <coroutine> are available only with C++20 or later or /await:strict.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\numbers(11): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\source_location(11): warning STL4038: The contents of <source_location> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\stdfloat(12): warning STL4038: The contents of <stdfloat> are available only with C++23 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\any(12): warning STL4038: The contents of <any> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\charconv(12): warning STL4038: The contents of <charconv> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\expected(11): warning STL4038: The contents of <expected> are available only with C++23 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\generator(12): warning STL4038: The contents of <generator> are available only with C++23 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\mdspan(11): warning STL4038: The contents of <mdspan> are available only with C++23 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory_resource(12): warning STL4038: The contents of <memory_resource> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\print(11): warning STL4038: The contents of <print> are available only with C++23 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\ranges(11): warning STL4038: The contents of <ranges> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\span(12): warning STL4038: The contents of <span> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\spanstream(11): warning STL4038: The contents of <spanstream> are available only with C++23 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\stacktrace(12): warning STL4038: The contents of <stacktrace> are available only with C++23 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\syncstream(11): warning STL4038: The contents of <syncstream> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\barrier(16): warning STL4038: The contents of <barrier> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\execution(12): warning STL4038: The contents of <execution> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\latch(16): warning STL4038: The contents of <latch> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\semaphore(16): warning STL4038: The contents of <semaphore> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\stop_token(12): warning STL4038: The contents of <stop_token> are available only with C++20 or later.
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(541,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(558,18): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(570,19): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(571,23): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
 C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(576,19): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(577,23): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(582,19): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(583,23): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(588,19): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(589,23): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(594,19): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(595,23): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(600,19): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(601,23): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(607,20): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(608,24): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode\VeryVeryVeryStrangeCode.cpp(619,23): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
   VeryVeryVeryStrangeCode.vcxproj -> C:\Users\pavlo\source\repos\VeryVeryVeryStrangeCode\x64\Debug\VeryVeryVeryStrangeCode.exe

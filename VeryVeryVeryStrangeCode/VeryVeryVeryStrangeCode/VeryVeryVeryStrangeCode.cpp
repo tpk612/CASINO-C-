@@ -494,6 +494,15 @@ int achivs(vector <int> a) {
 		cout << " YOU'RE GOING TO GET BEATEN UP SOON " << endl << endl;
 		cout << "Lose all the money" << endl << endl << endl;
 	}
+	if (a[11] == 1) {
+		cout << "SIXSEVNSIXSEVENSIXSEVENSIXSEVENSIX..." << endl << endl;
+		cout << "676767676767676767676767676767676767" << endl << endl << endl;
+	}
+	if (a[12] == 1) {
+		cout << "                THIEF               " << endl << endl;
+		cout << "withdraw all casino money" << endl << endl << endl;
+
+	}
 	cout << "enter '1' for continue" << endl;
 	int n;
 	cin >> n;
@@ -529,53 +538,91 @@ int achivs(vector <int> a) {
 
 
 int main() {
+	srand(time(NULL));
 	int balance = 1000;
 	int first, second, third;
 	long long dep;
 	int q;
-	vector<int>s = { 1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5,6,6,7 };
+	vector<int>s = { 7,6,6,5,5,5,4,4,4,4,3,3,3,3,3,2,2,2,2,2,2 };
 	int count = 0;
 	int casinomoney = 0;
-	vector <int> achivement(11);
+	vector <int> achivement(13);
 	while (1) {
+		system("cls");
 		casic();
 		cout << "Your balance: " << balance << endl;
-		cout << "enter the dep amount:" << endl;
+		cout << "The money that the casino earned from you: " << casinomoney << endl;
+		cout << "One coin is worth: 25" << endl;
+		cout << "enter the dep amount(1-3):" << endl;
 		cin >> dep;
+		balance -= dep * 25;
+		system("cls");
+		casic();
+		cout << "Your balance: " << balance << endl;
+		cout << "The money that the casino earned from you: " << casinomoney << endl;
 		cout << endl;
 		first = s[rand() % s.size()];
 		second = s[rand() % s.size()];
 		third = s[rand() % s.size()];
 		cout << first << second << third << endl;
-		if (first == second && first == third && first == 7) {
+		if ((first == 2 && second != 2 && third != 2) || (first != 2 && second == 2 && third != 2) || (first != 2 && second != 2 && third == 2)) {
+			cout << "You've won!" << endl;
+			balance += dep * 2;
+			casinomoney -= dep * 2;
+			cout << dep * 5 << endl;
+		}
+		else if ((first == 2 && second == 2 && third == 2) || (first == 3 && second == 3 && third == 3)) {
+			cout << "You've won!" << endl;
 			balance += dep * 10;
+			casinomoney -= dep * 10;
+			cout << dep * 10 << endl;
 		}
-		else if (first == second && first == third && first == 6) {
+		else if (first == 4 && second == 4 && third == 4) {
+			cout << "You've won!" << endl;
+			balance += dep * 25;
+			casinomoney -= dep * 25;
+			cout << dep * 25 << endl;
+		}
+		else if (first == 5 && second == 5 && third == 5) {
+			cout << "You've won!" << endl;
+			balance += dep * 40;
+			casinomoney -= dep * 40;
+			cout << dep * 40 << endl;
+		}
+		else if ((first == 2 && second == 2 && third != 2) || (first == 2 && second != 2 && third == 2) || (first != 2 && second == 2 && third == 2) || ((first==3||first==4||first==5)&&(second==3||second==4||second==5)&&(third==3||third==4||third==5))) {
+			cout << "You've won!" << endl;
 			balance += dep * 5;
+			casinomoney -= dep * 5;
+			cout << dep * 5 << endl;
 		}
-		else if (first == second && first == third && first == 5) {
-			balance += dep * 25 / 10;
+		else if (first == 6 && second == 6 && third == 6) {
+			cout << "You've won" << endl;
+			balance += dep * 80;
+			casinomoney -= dep * 80;
+			cout << dep * 80 << endl;
 		}
-		else if (first == second && first == third && first == 4) {
-			balance += dep * 15 / 10;
-		}
-		else if (first == second && first == third && first == 3) {
-			balance += dep * 125 / 100;
-		}
-		else if (first == second && first == third && first == 2) {
-			balance += dep * 115 / 100;
-		}
-		else if (first == second && first == third && first == 1) {
-			balance += dep * 110 / 100;
-		}
-		else if (first == second || second == third || first == third) {
-
+		else if (first == 7 && second == 7 && third == 7) {
+			if (dep < 3) {
+				cout << "You've won!" << endl;
+				balance += dep * 800;
+				casinomoney -= dep * 800;
+				cout << dep * 800 << endl;
+			}
+			else {
+				cout << "You've won!" << endl;
+				balance += 2500;
+				casinomoney -= 2500;
+				cout << 2500 << endl;
+			}
 		}
 		else {
-			balance -= dep;
-			casinomoney += dep;
+			casinomoney += dep * 25;
 		}
 		count++;
+		cout << "enter '1' for continue..." << endl;
+		cout << "enter '2' to view achievements" << endl;
+		cin >> q;
+		if (q == 2) achivs(achivement);
 		if (first == 7 && second == 7 && third == 7 && achivement[0] == 0) {
 			achivement[0] = 1;
 			system("cls");
@@ -587,6 +634,7 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
 		if (count == 10) {
 			achivement[1] = 1;
@@ -599,6 +647,7 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
 		if (count == 50) {
 			achivement[2] = 1;
@@ -611,6 +660,7 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
 		if (count == 100) {
 			achivement[3] = 1;
@@ -623,6 +673,7 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
 		if (count == 200) {
 			achivement[4] = 1;
@@ -635,6 +686,7 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
 		if (count == 500) {
 			achivement[5] = 1;
@@ -647,6 +699,7 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
 		if (count == 1000) {
 			achivement[6] = 1;
@@ -659,8 +712,9 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
-		if (balance >= 2000) {
+		if (balance >= 2000 && achivement[7] == 0) {
 			achivement[7] = 1;
 			system("cls");
 			casic();
@@ -671,8 +725,9 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
-		if (balance >= 5000) {
+		if (balance >= 5000 && achivement[8] == 0) {
 			achivement[8] = 1;
 			system("cls");
 			casic();
@@ -683,8 +738,9 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
-		if (balance <= 0) {
+		if (balance <= 0 && achivement[9] == 0) {
 			achivement[9] = 1;
 			system("cls");
 			casic();
@@ -695,8 +751,9 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
-		if (balance <= -500) {
+		if (balance <= -500 && achivement[10] == 0) {
 			achivement[10] = 1;
 			system("cls");
 			casic();
@@ -707,11 +764,33 @@ int main() {
 			cout << "enter '2' to view achievements" << endl;
 			cin >> q;
 			if (q == 2) achivs(achivement);
+			continue;
 		}
-		cout << "enter '1' for continue..." << endl;
-		cout << "enter '2' to view achievements" << endl;
-		cin >> q;
-		if (q == 2) achivs(achivement);
-		system("cls");
+		if (((first == 6 && second == 7) || (second == 6 && third == 7)) && achivement[11] == 0) {
+			achivement[11] = 1;
+			system("cls");
+			casic();
+			cout << "A new achievement has been achieved!" << endl;
+			cout << "SIXSEVNSIXSEVENSIXSEVENSIXSEVENSIX..." << endl << endl;
+			cout << "676767676767676767676767676767676767" << endl;
+			cout << "enter '1' for continue" << endl;
+			cout << "enter '2' to view achievements" << endl;
+			cin >> q;
+			if (q == 2) achivs(achivement);
+			continue;
+		}
+		if (casinomoney <= -1000 && achivement[12]==0) {
+			achivement[12] = 1;
+			system("cls");
+			casic();
+			cout << "A new achievement has been achieved!" << endl;
+			cout << "                THIEF               " << endl << endl;
+			cout << "withdraw all casino money" << endl;
+			cout << "enter '1' for continue" << endl;
+			cout << "enter '2' to view achievements" << endl;
+			cin >> q;
+			if (q == 2) achivs(achivement);
+			continue;
+		}
 	}
 }
